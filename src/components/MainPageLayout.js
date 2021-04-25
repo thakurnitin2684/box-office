@@ -4,7 +4,7 @@ import Title from './Title';
 
 const MainPageLayout = ({ children }) => {
   return (
-    <div>
+    <div style={{ backgroundColor: 'white' }}>
       <Title
         title="BOX OFFICE"
         subtitle="Are you looking for a movie or actor"
